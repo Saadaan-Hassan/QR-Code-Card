@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+/* CSS Reset */
+* {
+  margin: 0;
+}
+
+/* Initializing CSS Variables */
+:root {
+  /* Colors */
+  --color-100: hsl(0, 0%, 100%);
+  --color-300: hsl(212, 45%, 89%);
+  --color-700: hsl(220, 15%, 55%);
+  --color-900: hsl(218, 44%, 22%);
+
+  /* Font Family and Font Sizes */
+  --ff-primary: "Outfit", sans-serif;
+
+  --fw-light: 400;
+  --fw-bold: 700;
+
+  --fs-heading: ;
+  --fs-paragraph: 15px;
+
+  /* Screen Widths */
+  --big-screens: 1440px;
+  --small-screens: 375px;
+}
+
+body {
+  font-family: var(--ff-primary);
+}
+
+.container {
+  width: 337px;
+  height: 520px;
+  margin: 5vh auto;
+  border-radius: 15px;
+
+  box-shadow: 0px 1px 20px -5px var(--color-700);
+}
+
+.container img {
+  width: 300px;
+  margin: 15px 0;
+  border-radius: 10px;
+}
+
+.description{
+    margin: 0 30px;
+}
+
+.description p{
+    padding: 17px 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Utility Classes */
+
+.fw-bold {
+  font-weight: var(--fw-bold);
+}
+
+.fw-light {
+  font-weight: var(--fw-light);
+}
+
+.font-color-primary {
+  color: var(--color-900);
+}
+
+.font-color-secondary {
+  color: var(--color-700);
+}
+
+.background-color-300 {
+  background-color: var(--color-300);
+}
+
+.background-color-100 {
+  background-color: var(--color-100);
+}
+
+.text-center {
+  text-align: center;
+}
