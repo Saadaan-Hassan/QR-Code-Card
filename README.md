@@ -15,7 +15,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![Screenshot for the QR code component coding challenge](./images/screenshot.png)
+![Desktop Screen Shot for the QR code component coding challenge](./images/screen-shot.png)
 
 ### Links
 
@@ -27,9 +27,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Built with
 
 - HTML5
-- CSS
+- CSS Custom Properties
 
 ## Author
-
-- Website - [Saadaan Hassan](https://www.your-site.com)
 - Frontend Mentor - [@Saadaan-Hassan](https://www.frontendmentor.io/profile/Saadaan-Hassan)
